@@ -82,14 +82,6 @@ public/
   js/                ES modules: state, api, ui, workday, maps, report, main
 ```
 
-## What I'd improve next
-
-- Automated tests (the API surface is small and very testable)
-- Offline-first PWA — manholes don't have great cell coverage; queue writes and sync later
-- Direct `.xlsx` export instead of paste-ready TSV
-- Roles (foreman vs. splicer) instead of the current trust-based shared map editing
-- Real migration tooling instead of `CREATE TABLE IF NOT EXISTS`
-
 ## License
 
 [MIT](LICENSE)
