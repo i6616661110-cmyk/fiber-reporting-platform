@@ -1,0 +1,16 @@
+{
+  "name": "fiber-field-reporting-platform",
+  "version": "2.0.0",
+  "description": "Field reporting platform for a fiber-optic splicing team: log work per map point, copy formatted output for redlines and Excel reports, share maps across the crew.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "better-sqlite3": "^11.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3"
+  }
+}
